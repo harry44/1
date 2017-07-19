@@ -150,13 +150,13 @@ environments {
 	production {
 		dataSource {
 			dbCreate = "update"
-			 url = "jdbc:postgresql://wcidddkndroobh:9108f50c1dbe7ad1754edd18b81748a7e40135267b92ff08e80db982669c3e7e@ec2-23-21-227-73.compute-1.amazonaws.com:5432/dai8la611a1al1"
+			 url = "jdbc:postgres://szytpdyyngxcmc:928a11e0aac607cd2909fbb8a81ed14e4671eb6f6787239d3075a6eca0b2a7cb@ec2-50-17-236-15.compute-1.amazonaws.com:5432/dchafuj7spkn1r"
 			 driverClassName = "org.postgresql.Driver"
 			 dialect = "org.hibernate.dialect.PostgreSQLDialect"
 			 
 			// url = "jdbc:postgresql://" + uri.host + ":" + uri.port + uri.path
-			 username = "wcidddkndroobh"
-			 password = "9108f50c1dbe7ad1754edd18b81748a7e40135267b92ff08e80db982669c3e7e"
+			 username = "szytpdyyngxcmc"
+			 password = "928a11e0aac607cd2909fbb8a81ed14e4671eb6f6787239d3075a6eca0b2a7cb"
 			  properties {
 			   // See http://grails.org/doc/latest/guide/conf.html#dataSource for documentation
 			   jmxEnabled = true
