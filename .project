@@ -26,7 +26,7 @@
 		<link>
 			<name>.link_to_grails_plugins</name>
 			<type>2</type>
-			<location>F:/workspace_onlineExam/OnlineExamInGrails_JavaTechies/target/work/plugins</location>
+			<location>F:/workspace_onlineExam/online-exam-jtechies/target/work/plugins</location>
 		</link>
 	</linkedResources>
 </projectDescription>

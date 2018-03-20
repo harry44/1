@@ -112,7 +112,7 @@ dataSource {
 	 //  username = "wcidddkndroobh"
 	//password = "9108f50c1dbe7ad1754edd18b81748a7e40135267b92ff08e80db982669c3e7e"
 	username = "postgres"
-	password = "postgres"
+	password = "root"
 	//url= "jdbc:mysql://localhost:3306/shop"
 	url = "jdbc:postgresql://localhost:5432/onlineExam"
   // url = "jdbc:postgresql://wcidddkndroobh:9108f50c1dbe7ad1754edd18b81748a7e40135267b92ff08e80db982669c3e7e@ec2-23-21-227-73.compute-1.amazonaws.com:5432/dai8la611a1al1"
@@ -150,13 +150,13 @@ environments {
 	production {
 		dataSource {
 	dbCreate = "update"
-			 url = "jdbc:postgres://ohgeonykvgrvdr:d7b6c5d72d64d65dd2f8d4d76b201a216b3339603a56bc06ada5a4db178f33eb@ec2-54-163-254-143.compute-1.amazonaws.com:5432/d3m5ibnofv76bo"
+			 url = "jdbc:postgres://usjuziziqluwbz:b28e883cb5ce656703d5205f15df38457730b58f54ab09d717bd3421d61dae42@ec2-54-221-220-82.compute-1.amazonaws.com:5432/d7n2dnskmdq8d9"
 			 driverClassName = "org.postgresql.Driver"
 			 dialect = "org.hibernate.dialect.PostgreSQLDialect"
 			 
 			// url = "jdbc:postgresql://" + uri.host + ":" + uri.port + uri.path
-			 username = "ohgeonykvgrvdr"
-			 password = "d7b6c5d72d64d65dd2f8d4d76b201a216b3339603a56bc06ada5a4db178f33eb"
+			 username = "usjuziziqluwbz"
+			 password = "b28e883cb5ce656703d5205f15df38457730b58f54ab09d717bd3421d61dae42"
 			  properties {
 			   // See http://grails.org/doc/latest/guide/conf.html#dataSource for documentation
 			   jmxEnabled = true

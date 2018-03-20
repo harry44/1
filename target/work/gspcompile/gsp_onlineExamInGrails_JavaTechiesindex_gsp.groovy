@@ -31,28 +31,38 @@ invokeTag('message','g',84,['code':("default.link.skip.label"),'default':("Skip 
 printHtmlPart(6)
 invokeTag('image','asset',89,['src':("onlineexam.jpg"),'alt':("Java Techies"),'style':("height:200px;width:80%")],-1)
 printHtmlPart(7)
-createClosureForHtmlPart(8, 2)
-invokeTag('link','g',94,['controller':("exam"),'action':("create")],2)
+for( examTypeInstance in (com.jtechies.ExamType.list()) ) {
+printHtmlPart(8)
+createTagBody(3, {->
 printHtmlPart(9)
-createClosureForHtmlPart(10, 2)
-invokeTag('link','g',96,['controller':("question"),'action':("create")],2)
+expressionOut.print(examTypeInstance?.examName)
+printHtmlPart(10)
+expressionOut.print(createLink(controller:'Exam',action:'showImage',id:examTypeInstance.id))
 printHtmlPart(11)
-createClosureForHtmlPart(12, 2)
-invokeTag('link','g',98,['controller':("login"),'action':("auth")],2)
-printHtmlPart(13)
-createClosureForHtmlPart(14, 2)
-invokeTag('link','g',107,['url':("http://jtechies.in/download_projects/index.php"),'target':("_newTab")],2)
-printHtmlPart(15)
 })
-invokeTag('captureBody','sitemesh',107,[:],1)
+invokeTag('link','g',98,['controller':("exam"),'action':("create")],3)
+printHtmlPart(8)
+}
+printHtmlPart(12)
+createClosureForHtmlPart(13, 2)
+invokeTag('link','g',102,['controller':("question"),'action':("create")],2)
+printHtmlPart(14)
+createClosureForHtmlPart(15, 2)
+invokeTag('link','g',106,['controller':("login"),'action':("auth")],2)
 printHtmlPart(16)
+createClosureForHtmlPart(17, 2)
+invokeTag('link','g',110,['url':("http://jtechies.in/download_projects/index.php"),'target':("_newTab")],2)
+printHtmlPart(18)
+})
+invokeTag('captureBody','sitemesh',111,[:],1)
+printHtmlPart(19)
 }
 public static final Map JSP_TAGS = new HashMap()
 protected void init() {
 	this.jspTags = JSP_TAGS
 }
 public static final String CONTENT_TYPE = 'text/html;charset=UTF-8'
-public static final long LAST_MODIFIED = 1499567836974L
+public static final long LAST_MODIFIED = 1499797306372L
 public static final String EXPRESSION_CODEC = 'html'
 public static final String STATIC_CODEC = 'none'
 public static final String OUT_CODEC = 'html'
